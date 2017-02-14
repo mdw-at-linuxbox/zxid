@@ -1,5 +1,5 @@
-/* C code produced by gperf version 3.0.1 */
-/* Command-line: /apps/bin/gperf c/zx-elems.gperf  */
+/* C code produced by gperf version 3.0.4 */
+/* Command-line: gperf c/zx-elems.gperf  */
 /* Computed positions: -k'1-5,7-8,11,$' */
 
 #if !((' ' == 32) && ('!' == 33) && ('"' == 34) && ('#' == 35) \
@@ -8997,6 +8997,9 @@ struct zx_el_tok zx_el_tab[] =
 
 #ifdef __GNUC__
 __inline
+#if defined __GNUC_STDC_INLINE__ || defined __GNUC_GNU_INLINE__
+__attribute__ ((__gnu_inline__))
+#endif
 #endif
 struct zx_el_tok *
 zx_elem2tok (str, len)
